@@ -1,0 +1,162 @@
+:root {
+    --headerColor: #f5f5f5;
+    --fontColor: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--fontColor);
+}
+
+.sec {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.head-sec {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: var(--headerColor);
+    padding: 20px 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 40px 0;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 175%;
+    margin-bottom: 30px;
+}
+
+.work-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.work-items a {
+    flex: 1 1 250px;
+    margin: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.work-items a:hover {
+    opacity: .66;
+}
+
+.work-items a img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 5px solid var(--fontColor);
+}
+
+.app2::after {
+    position: relative;
+    top: -26px;
+    left: 5px;
+    background-color: var(--headerColor);
+    color: var(--fontColor);
+    content: "App 2";
+}
+
+.app3::after {
+    position: relative;
+    top: -26px;
+    left: 5px;
+    background-color: var(--headerColor);
+    color: var(--fontColor);
+    content: "App 3";
+}
+
+.app4::after {
+    position: relative;
+    top: -26px;
+    left: 5px;
+    background-color: var(--headerColor);
+    color: var(--fontColor);
+    content: "App 4";
+}
+
+.main-app {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-app a {
+    transition: all 0.3s ease-in-out;
+}
+
+.main-app a:hover {
+    opacity: .66;
+}
+
+.main-app a img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 5px solid var(--fontColor);
+}
+
+.main-app a::after {
+    position: relative;
+    top: -26px;
+    left: 5px;
+    background-color: var(--headerColor);
+    color: var(--fontColor);
+    content: "Marketing Site Landing Page";
+}
+
+@media (max-width: 768px) {
+
+    .sec {
+        padding: 0 10px;
+    }
+
+    header {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .work-items a {
+        flex: 1 1 100%;
+    }
+
+    .main-app a {
+        flex: 1 1 100%;
+    }
+
+}
