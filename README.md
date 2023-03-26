@@ -6,7 +6,7 @@ This is a landing page for my portfolio of work. It consists of multiple section
 
 ## Screenshot
 
-![Screenshot of the portfolio site](./assets/images/screenshot.png)
+![Screenshot of the portfolio site](./assets/images/Screenshot.png)
 
 ## Link
 
