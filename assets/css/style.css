@@ -135,6 +135,14 @@ h2 {
     content: "Marketing Site Landing Page";
 }
 
+.contact-links a{
+    display: inline;
+    background-color: var(--headerColor);
+    color: var(--fontColor);
+    margin-right: 20px;
+    font-weight: bold;
+}
+
 @media (max-width: 768px) {
 
     .sec {
